@@ -1,0 +1,61 @@
+** start of html **
+
+<!DOCTYPE html>
+<html lang="eng">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Registration form</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Login Up</h1>
+<p id="description"> Pleasee nter your correct data to login up</>
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label">Enter your name <input id="name" type="text" required placeholder="User name">
+  </label>
+  <label id="email-label">Enter your email <input id="email" placeholder="user@gmail.com" type="email" required>
+  </label>
+  <label id="number-label">Enter your age <input id="number" type="number" min="13" max="120" placeholder="Age">
+  </label>
+  </fieldset>
+    <fieldset><label>How did you hear about us?
+      <select id="dropdown" name="referrer">
+          <option value="">select one</option>
+          <option value="1">facebook</option>
+          <option value="2">youtube</option>
+          <option value="3">twiter</option>
+    </select>
+    </label>
+   <label><input type="radio" value="personal-account" name="account-type"  class="inline">Personal account 
+    </label>
+    <label><input type="radio" value="company-account" name="account-type" class="inline"> Company account 
+    </label>
+    <label><button type="radio" value="male" name="gender"  > M</button>Gender</label> 
+    <label><button type="radio" value="young" name="how-old">A</button>Young</label>
+    <label><button type="radio" value="old" name="how-old">B</button> Old</label>
+    <label>
+      <button type="radio" value="female" name="gender">F</button>
+    </label> Female 
+  
+   
+    <label><button type="radio" value="pretty" name="beaty">D</button>Pretty</label>
+    <label><button type="radio" value="bad" name="beaty">X</button>Bad</label>
+  <label>User Skills:</label>
+  <label><input type="checkbox"class="inline" value="html" name="skill"class="inline">HTML</label>
+ 
+  <label><input type="checkbox"class="inline" value="css" name="skill">CSS</label>
+    </fieldset>
+  <label>Type about your self, your dreams....
+    <textarea placeholder="I hope..." rows="5"name="bio" cols="30"></textarea></label>
+  <input id="submit" type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+** end of html **
+
+
+
